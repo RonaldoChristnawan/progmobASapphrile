@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dda.a15.socmedoflife.PostingActivity">
+
+    <Spinner
+        android:id="@+id/spPhrile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txtText"
+        android:layout_marginTop="36dp"
+        android:layout_alignEnd="@+id/txtText" />
+
+
+    <EditText
+        android:id="@+id/txtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="How do you explain your phriling?"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/spPhrile"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shout Phrile"
+        android:layout_below="@+id/txtText"
+        android:layout_alignEnd="@+id/txtText"
+        android:layout_marginTop="18dp" />
+
+</RelativeLayout>

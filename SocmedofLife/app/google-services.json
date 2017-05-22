@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "965189367515",
+    "firebase_url": "https://sapphrile.firebaseio.com",
+    "project_id": "sapphrile",
+    "storage_bucket": "sapphrile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965189367515:android:3c41ed84447ee1d9",
+        "android_client_info": {
+          "package_name": "com.dda.a15.socmedoflife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965189367515-v84hoe1j95vg49bf6r254v2cblkju3q0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dda.a15.socmedoflife",
+            "certificate_hash": "cfcda5e50edde8944b4e56f5b7af54cca686ae3e"
+          }
+        },
+        {
+          "client_id": "965189367515-riuokkkrnj951jjmgj6q8jeq8baqm88u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsLVCJ_W1tLRhme74VryPuaC0zvPARctA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965189367515-riuokkkrnj951jjmgj6q8jeq8baqm88u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
